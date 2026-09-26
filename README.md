@@ -2,8 +2,6 @@
 
 An interactive dashboard analysing how England won Women's Euro 2025, and what the data suggests about their chances of a third straight title at Euro 2029, using professional match event data from StatsBomb.
 
-![England players warm up at Stadion Letzigrund, Zürich, before their opening Euro 2025 match against France](WFD_readme_banner.jpg)
-
 **🔗 [Open the live dashboard](https://lionesses-euro2025.streamlit.app/)**
 
 [![Watch the data story on YouTube](demo_thumbnail.png)](https://youtu.be/RWfnlJrw5b4)
@@ -35,6 +33,8 @@ I moved into data from a background in media production. This project brings the
 ## Key findings
 
 ### 1. England grew into the tournament, then survived
+
+![England players warm up at Stadion Letzigrund, Zürich, before their opening Euro 2025 match against France](WFD_readme_banner.jpg)
 
 England were out-created in their opening 2–1 defeat to France, dominated the Netherlands and Wales, were level on chances with Sweden, and were clearly stronger than Italy. In the final, Spain created more than twice England's xG (2.14 vs 0.88), but England held on and won on penalties.
 
