@@ -4,6 +4,8 @@ An interactive dashboard analysing how England won Women's Euro 2025, and what t
 
 **🔗 [Open the live dashboard](https://lionesses-euro2025.streamlit.app/)**
 
+[![Watch the data story on YouTube](demo_thumbnail.png)](https://youtu.be/RWfnlJrw5b4)
+
 > ✅ **Status: Live.** Explore the [interactive dashboard](https://lionesses-euro2025.streamlit.app/), or follow the full build, session by session, in the [devlog](DEVLOG.md).
 
 ![England's Euro 2025 journey: xG and goals match by match](england_journey_xg.png)
@@ -194,7 +196,7 @@ This was my first full data project after moving into tech from media production
 - [x] Build the interactive Streamlit dashboard
 - [x] Look ahead to Euro 2029 (trends and squad ages)
 - [x] Publish the dashboard online
-- [ ] Record a demo video walkthrough
+- [x] Record a demo video walkthrough
 - [ ] Future: use WSL data to find young English players performing well at club level, like a scouting tool
 - [ ] Future: build my own expected goals (xG) model
 
