@@ -1,4 +1,4 @@
-# England's Euro 2025 Journey ⚽
+# England's Lionesses Euro 2025 Journey ⚽
 
 An interactive dashboard analysing how England won Women's Euro 2025, and what the data suggests about their chances of a third straight title at Euro 2029, using professional match event data from StatsBomb.
 
