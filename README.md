@@ -2,6 +2,8 @@
 
 An interactive dashboard analysing how England won Women's Euro 2025, and what the data suggests about their chances of a third straight title at Euro 2029, using professional match event data from StatsBomb.
 
+![England players warm up at Stadion Letzigrund, Zürich, before their opening Euro 2025 match against France](WFD_readme_banner.jpg)
+
 **🔗 [Open the live dashboard](https://lionesses-euro2025.streamlit.app/)**
 
 [![Watch the data story on YouTube](demo_thumbnail.png)](https://youtu.be/RWfnlJrw5b4)
