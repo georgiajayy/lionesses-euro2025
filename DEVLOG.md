@@ -288,3 +288,53 @@ age chart, and added a fourth "Looking ahead to 2029" tab to the dashboard.
 
 **Next time:** Session 8: publish the dashboard online, polish the
 README, and record a demo video.
+
+## Session 8
+
+**Goal:** Launch the project: publish the dashboard online, polish the 
+README, and create a demo video.
+
+**What I did:** Deployed the dashboard to Streamlit Community Cloud at 
+lionesses-euro2025.streamlit.app. Rebuilt the README around five key 
+findings, with methods and limitations. Created a 46-second animated data 
+story (pink stick figures, an original beat, and a breakdown of how England 
+won), plus a thumbnail. Set up my YouTube channel, Data with Georgia Jayy 
+(@datawithgeorgiajayy), with a banner, watermark, description and a 
+Football Data Stories playlist, and published the video. Renamed the repo 
+to lionesses-euro2025, added a licensed photo, and updated my GitHub 
+profile and portfolio site with the finished project.
+
+**What I learned:**
+- Deployment: an online server installs whatever is in requirements.txt. 
+  pip freeze on Windows includes Windows-only packages that break on the 
+  Linux server, so I trimmed it to just the six libraries the app uses.
+- Free hosting sleeps apps after a while, so I should open the link 
+  before sharing it.
+- Copyright: press photos usually belong to agencies like Getty, so I 
+  swapped mine for a Creative Commons photo. CC BY-SA 4.0 means crediting 
+  the photographer, linking the licence and saying if I changed it 
+  (I converted it to black and white).
+- Renaming a repo: GitHub redirects the old address, but I still had to 
+  point my laptop at it with git remote set-url and update links 
+  everywhere.
+- Presenting work: the first two lines of a description or post are the 
+  hook, and a thumbnail needs a few big words, not a paragraph.
+- Accuracy matters in how I describe my work, like not claiming WSL data 
+  or passing networks the dashboard doesn't have yet.
+
+**What confused me:**
+- Finding images I'm actually allowed to use for design purposes, since most photos online 
+  belong to agencies like Getty.
+  Resolved: Wikimedia Commons is a library of freely licensed images, a 
+  new tool for me. Each photo lists its licence, and CC BY-SA 4.0 lets me 
+  use and edit it as long as I credit the photographer, link the licence 
+  and say what I changed.
+
+**Things I noticed:**
+- My media production skills made the launch the most fun part: the 
+  video, thumbnail and branding all share one pink and black identity.
+- Checking the real output matters. The first video export had a white 
+  background that hid all the text, which only showed up when checking 
+  the actual file.
+
+**Next time:** Start the next projects.
