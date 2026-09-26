@@ -1,10 +1,8 @@
-# England's Lionesses Euro 2025 Journey ⚽
+# England's Euro 2025 Journey ⚽
 
 An interactive dashboard analysing how England won Women's Euro 2025, and what the data suggests about their chances of a third straight title at Euro 2029, using professional match event data from StatsBomb.
 
 **🔗 [Open the live dashboard](https://lionesses-euro2025.streamlit.app/)**
-
-[![Watch the data story on YouTube](demo_thumbnail.png)](https://youtu.be/RWfnlJrw5b4)
 
 > ✅ **Status: Live.** Explore the [interactive dashboard](https://lionesses-euro2025.streamlit.app/), or follow the full build, session by session, in the [devlog](DEVLOG.md).
 
@@ -33,8 +31,6 @@ I moved into data from a background in media production. This project brings the
 ## Key findings
 
 ### 1. England grew into the tournament, then survived
-
-![England players warm up at Stadion Letzigrund, Zürich, before their opening Euro 2025 match against France](WFD_readme_banner.jpg)
 
 England were out-created in their opening 2–1 defeat to France, dominated the Netherlands and Wales, were level on chances with Sweden, and were clearly stronger than Italy. In the final, Spain created more than twice England's xG (2.14 vs 0.88), but England held on and won on penalties.
 
@@ -198,7 +194,7 @@ This was my first full data project after moving into tech from media production
 - [x] Build the interactive Streamlit dashboard
 - [x] Look ahead to Euro 2029 (trends and squad ages)
 - [x] Publish the dashboard online
-- [x] Record a demo video walkthrough
+- [ ] Record a demo video walkthrough
 - [ ] Future: use WSL data to find young English players performing well at club level, like a scouting tool
 - [ ] Future: build my own expected goals (xG) model
 
