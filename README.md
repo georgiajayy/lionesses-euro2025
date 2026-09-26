@@ -1,8 +1,10 @@
-# England's Euro 2025 Journey ⚽
+# England's Lionesses Euro 2025 Journey ⚽
 
 An interactive dashboard analysing how England won Women's Euro 2025, and what the data suggests about their chances of a third straight title at Euro 2029, using professional match event data from StatsBomb.
 
 **🔗 [Open the live dashboard](https://lionesses-euro2025.streamlit.app/)**
+
+[![Watch the data story on YouTube](demo_thumbnail.png)](https://youtu.be/RWfnlJrw5b4)
 
 > ✅ **Status: Live.** Explore the [interactive dashboard](https://lionesses-euro2025.streamlit.app/), or follow the full build, session by session, in the [devlog](DEVLOG.md).
 
@@ -31,6 +33,9 @@ I moved into data from a background in media production. This project brings the
 ## Key findings
 
 ### 1. England grew into the tournament, then survived
+
+![England players warm up at Stadion Letzigrund, Zürich, before their opening Euro 2025 match against France](WFD_readme_banner.jpg)
+<sub>Photo: "Stadion Letzigrund Zürich England V France 7" by [Amanda Slater](https://www.flickr.com/photos/pikerslanefarm/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stadion_Letzigrund_Z%C3%BCrich_England_V_France_7.jpg), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Converted to black and white.</sub>
 
 England were out-created in their opening 2–1 defeat to France, dominated the Netherlands and Wales, were level on chances with Sweden, and were clearly stronger than Italy. In the final, Spain created more than twice England's xG (2.14 vs 0.88), but England held on and won on penalties.
 
@@ -71,6 +76,12 @@ The [live dashboard](https://lionesses-euro2025.streamlit.app/) has four section
 
 ---
 
+## The data story video
+
+[▶ Watch on YouTube](https://youtu.be/RWfnlJrw5b4): a short animated breakdown of how England won the final: volume vs quality, clinical finishing and composure from the spot. The stick-figure animation and the beat were both made from scratch for this project. More on [YouTube @datawithgeorgiajayy](https://www.youtube.com/@datawithgeorgiajayy).
+
+---
+
 ## Data and methods
 
 **Match data:** [StatsBomb Open Data](https://github.com/statsbomb/open-data), covering Women's Euro 2025, Euro 2022 and the 2019 and 2023 Women's World Cups.
@@ -104,7 +115,7 @@ This analysis describes what happened; it doesn't predict the future. Four tourn
 | **pandas**           | Loading, cleaning, joining and analysing data   |
 | **statsbombpy**      | Downloading StatsBomb data directly into Python |
 | **mplsoccer**        | Drawing football pitches for shot maps          |
-| **matplotlib**       | Creating charts and visualisations              |
+| **matplotlib**       | Creating charts, visualisations and animation   |
 | **Jupyter Notebook** | Exploring the data step by step                 |
 | **Streamlit**        | Building and hosting the interactive dashboard  |
 | **Git and GitHub**   | Version control and sharing                     |
@@ -114,7 +125,7 @@ This analysis describes what happened; it doesn't predict the future. Four tourn
 ## Project structure
 
 ```
-womens-football-dashboard/
+lionesses-euro2025/
 ├── app.py                              # The Streamlit dashboard
 ├── 01_exploration.ipynb                # Exploring the StatsBomb data
 ├── 02_shot_map.ipynb                   # Shot map and xG analysis of the final
@@ -130,6 +141,8 @@ womens-football-dashboard/
 ├── england_shooters_vs_creators.png    # Shooters vs creators chart
 ├── road_to_2029_trend.png              # Rivals trend chart
 ├── england_age_2029.png                # Squad age chart
+├── WFD_readme_banner.jpg               # Licensed photo (CC BY-SA 4.0)
+├── demo_thumbnail.png                  # YouTube video thumbnail
 ├── DEVLOG.md                           # Session-by-session development log
 ├── requirements.txt                    # Python libraries needed
 ├── .gitignore                          # Files excluded from the repository
@@ -143,8 +156,8 @@ womens-football-dashboard/
 1. Clone the repository:
 
    ```
-   git clone https://github.com/georgiajayy/womens-football-dashboard.git
-   cd womens-football-dashboard
+   git clone https://github.com/georgiajayy/lionesses-euro2025.git
+   cd lionesses-euro2025
    ```
 
 2. Create and activate a virtual environment:
@@ -172,6 +185,7 @@ womens-football-dashboard/
    ```
 
 5. To open the notebooks, install Jupyter too:
+
    ```
    pip install jupyter
    jupyter notebook
@@ -194,7 +208,7 @@ This was my first full data project after moving into tech from media production
 - [x] Build the interactive Streamlit dashboard
 - [x] Look ahead to Euro 2029 (trends and squad ages)
 - [x] Publish the dashboard online
-- [ ] Record a demo video walkthrough
+- [x] Record a demo video walkthrough
 - [ ] Future: use WSL data to find young English players performing well at club level, like a scouting tool
 - [ ] Future: build my own expected goals (xG) model
 
@@ -204,7 +218,8 @@ This was my first full data project after moving into tech from media production
 
 - [StatsBomb](https://statsbomb.com/) for making their event data freely available
 - [mplsoccer](https://mplsoccer.readthedocs.io/) for the football pitch plotting library
+- [Amanda Slater](https://www.flickr.com/photos/pikerslanefarm/) for the warm-up photo, shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
 
 ---
 
-**Georgia J Summers** · Junior Data Analyst · [GitHub](https://github.com/georgiajayy) · [LinkedIn](https://www.linkedin.com/in/georgiajayysummers/)
+**Georgia J Summers** · Junior Data Analyst · [GitHub](https://github.com/georgiajayy) · [LinkedIn](https://www.linkedin.com/in/georgiajayysummers/) · [YouTube](https://www.youtube.com/@datawithgeorgiajayy)
